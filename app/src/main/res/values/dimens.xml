@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="textSiZeET">20sp</dimen>
+    <dimen name="textSiZeTitleTV">20sp</dimen>
+    <dimen name="textSiZeListViewLV">20sp</dimen>
+    <dimen name="textSiZePersonOut">20sp</dimen>
+    <dimen name="textSiZeOption">15sp</dimen>
+    <dimen name="textSiZeBT">15sp</dimen>
+    <dimen name="minHeight">48dp</dimen>
+    <dimen name="intermediate">10dp</dimen>
+    <dimen name="image">15dp</dimen>
+    <dimen name="marginBottom">8dp</dimen>
+</resources>

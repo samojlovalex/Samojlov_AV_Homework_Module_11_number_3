@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_11_number_3</string>
+    <string name="mainTitle">Книга адресов</string>
+    <string name="editTextMainNameET">Имя</string>
+    <string name="editTextSurnameET">Фамилия</string>
+    <string name="buttonSaveBT">Сохранить</string>
+    <string name="buttonClearBT">Очистить</string>
+    <string name="editTextMainAddress">Адрес</string>
+    <string name="editTextMainPhone">№ телефона +7...</string>
+    <string name="secondPersonOutTextViewTVHint">Новая запись</string>
+    <string name="buttonSecondBackBT">Вернуться</string>
+    <string name="buttonSecondEditBT">Изменить</string>
+    <string name="buttonSecondClearBT">Удалить</string>
+    <string name="buttonMainClearBTMessage">Поля очищены</string>
+    <string name="buttonMainSaveBTMessageOne">Значения Имени и Фамилии обязательны для ввода</string>
+    <string name="buttonMainSaveBTMessageTwo">Значения Имени или Фамилии не могут быть короче двух символов</string>
+</resources>

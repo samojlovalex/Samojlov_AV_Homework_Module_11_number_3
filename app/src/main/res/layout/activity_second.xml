@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightGray"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:id="@+id/containerSecondTitleLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/secondTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/notebook"
+            android:drawableRight="@drawable/notebook"
+            android:fontFamily="@font/playfair_display"
+            android:gravity="center"
+            android:text="@string/mainTitle"
+            android:textColor="@color/Blue"
+            android:textSize="@dimen/textSiZeTitleTV"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerSecondTextViewLL"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_width"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/containerSecondButtonLL"
+        app:layout_constraintTop_toBottomOf = "@+id/containerSecondTitleLL"
+        app:layout_constraintVertical_bias="0.1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/secondPersonOutTextViewTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pt_serif"
+                android:gravity="top"
+                android:hint="@string/secondPersonOutTextViewTVHint"
+                android:textColor="@color/Blue"
+                android:textSize="@dimen/textSiZePersonOut"
+                android:textStyle="italic"
+                />
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerSecondButtonLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/marginBottom"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessLeaf"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/buttonSecondBackBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonSecondBackBT"
+                android:textColor="@color/Blue"
+                android:layout_weight="1"
+                android:fontFamily="@font/playfair_display"
+                android:textStyle="bold"
+                android:backgroundTint="@color/Transparent"
+                android:textSize="@dimen/textSiZeBT"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessLeaf"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonSecondEditBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonSecondEditBT"
+                android:textColor="@color/Blue"
+                android:layout_weight="1"
+                android:fontFamily="@font/playfair_display"
+                android:textStyle="bold"
+                android:backgroundTint="@color/Transparent"
+                android:textSize="@dimen/textSiZeBT"></Button>
+
+            <Button
+                android:id="@+id/buttonSecondClearBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonSecondClearBT"
+                android:textColor="@color/Blue"
+                android:layout_weight="1"
+                android:fontFamily="@font/playfair_display"
+                android:textStyle="bold"
+                android:backgroundTint="@color/Transparent"
+                android:textSize="@dimen/textSiZeBT"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
