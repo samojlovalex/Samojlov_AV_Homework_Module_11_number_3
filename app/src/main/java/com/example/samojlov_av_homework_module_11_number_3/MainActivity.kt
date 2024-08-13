@@ -127,11 +127,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun arrayAdapter(): ArrayAdapter<String> {
-        val adapter = ArrayAdapter(this, R.layout.mytextview, listVieW)
-        return adapter
-    }
-
     @OptIn(ExperimentalStdlibApi::class)
     private fun listVieWCheck() =
         AdapterView.OnItemClickListener { _, _, position, _ ->
