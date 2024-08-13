@@ -173,7 +173,7 @@ class MainActivity : AppCompatActivity() {
             editTextMainNameET.text.toString(),
             editTextSurnameET.text.toString(),
             editTextMainPhone.text.toString(),
-            editTextMainPhone.text.toString()
+            editTextMainAddress.text.toString()
         )
         personList.add(person)
         listVieW.clear()
